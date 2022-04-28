@@ -1,1 +1,1 @@
-# 2022_IBM_Code_Challenge_TravelMate
+# 2022_IBM_Code_Challenge_Travelogue
