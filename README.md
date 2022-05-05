@@ -1,1 +1,1 @@
-# 2022_IBM_Code_Challenge_Travelogue
+# 2022_IBM_Code_Challenge_Travelogue_Divination
