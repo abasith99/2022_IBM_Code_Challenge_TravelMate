@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travelogue divination</title>
+    <link rel="stylesheet" href="../static/css/predict.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Travelogue Divination</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Track Yourself</a></li>
+                    <li><a href="#">Ticket Booking</a></li>
+                    <li><a href="#">Tourism</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        </div> 
+        <form class="form-horizontal" action="/submit" method="post">
+
+            <div class="search">
+                <input class="srch" type="search" name="cur_loc" placeholder="Current location : ">
+                <input class="srch" type="search" name="cur_time" placeholder="Current time : ">
+                <input class="srch" type="search" name="exp_time" placeholder="Expected time : ">
+                <a href="#"> <button class="btn">Submit</button></a>
+            </div>
+           
+        </form>
+        {% if prediction %}
+                <div>
+                    <div style="color: aliceblue;"<p>Predicted location : {{prediction}}</p></div>
+                </div>
+        {% endif %}
+        </div>
+    </div>
+    
+</body>
+</html>
