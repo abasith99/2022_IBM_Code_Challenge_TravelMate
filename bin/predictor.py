@@ -2,9 +2,9 @@ import sqlite3
 con = sqlite3.connect('../bin/historicalData.db')
 c = con.cursor()
 
-cur_loc = 'loc_A'
-cur_time = '10:00'
-exp_time = '11:00'
+cur_loc = 'loc_C'
+cur_time = '11:30'
+exp_time = '12:00'
 
 sql = f"SELECT time, COUNT(time) AS max_time FROM (SELECT * FROM history WHERE location = '{cur_loc}') GROUP BY location ORDER BY max_time DESC LIMIT 1"
 for ele in c.execute(sql):
@@ -23,9 +23,9 @@ minutes = diff % 60
 
 exp_hh, exp_mm = int(exp_time.split(':')[0]) + hours, int(exp_time.split(':')[1]) + minutes
 
-if exp_mm >= 60:
-    exp_mm = exp_mm % 60
-    exp_hh += exp_mm / 60
+if exp_mm == 60:
+    exp_mm = 00
+    exp_hh += 1
 
 exp_time = str("%d:%02d"%(exp_hh,exp_mm))
 

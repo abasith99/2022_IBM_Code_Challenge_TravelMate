@@ -1,8 +1,8 @@
 import sqlite3
 from os import path
 
-users = ['user1', 'user2', 'user3', 'user4', 'user5', 'user6']
-loc = ['loc_A', 'loc_B', 'loc_C', 'loc_D', 'loc_E', 'loc_F']
+users = ['basith', 'swathy', 'devanand', 'hari', 'sandra', 'abhilash']
+loc = ['palakkad', 'shoranur', 'thrissur', 'kochi', 'munnar', 'vagamon']
 time = [['09:30', '10:00', '10:30', '11:00', '11:30', '12:00'],
         ['09:30', '10:00', '11:00', '11:30', '12:30', '13:00'],
         ['09:00', '09:30', '10:00', '11:00', '11:30', '12:30'],

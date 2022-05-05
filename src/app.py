@@ -37,12 +37,12 @@ def predict():
 
     exp_hh, exp_mm = int(exp_time.split(':')[0]) + hours, int(exp_time.split(':')[1]) + minutes
 
-    if exp_mm >= 60:
-        exp_mm = exp_mm % 60
-        exp_hh += exp_mm / 60
+    if exp_mm == 60:
+        exp_mm = 0
+        exp_hh += 1
 
     exp_time = str("%d:%02d"%(exp_hh,exp_mm))
-    #print(f"Expected time : {exp_time}")
+    print(f"Expected time : {exp_time}")
 
     sql = f"SELECT location, COUNT(location) AS max_loc FROM (SELECT * FROM history WHERE time = '{exp_time}') GROUP BY location ORDER BY max_loc DESC LIMIT 1"
     for ele in c.execute(sql):
@@ -51,7 +51,7 @@ def predict():
     con.commit()
     con.close()
 
-    #print(f"Prediction : {predict_loc}")
+    print(f"Prediction : {predict_loc}")
     return render_template("predict.html", prediction = predict_loc)
 
 if __name__ == "__main__":
