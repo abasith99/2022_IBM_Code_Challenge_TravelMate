@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Travelogue divination</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
 
@@ -22,26 +22,12 @@
                 </ul>
             </div>
 
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Search here">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
-
         </div> 
-        <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+        <form class="form-horizontal" action="/submit" method="post">
 
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="pwd1">Enter expected time :</label><br>
-                <div class="col-sm-12">
-                    <input type="time" class="form-control" name="" required
-                        id="pwd1">
-                </div>
-            </div>
-           
-            <div class="form-group">
-                <div class="button" id="button1">
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </div>
+            <div class="search">
+                <input class="srch" type="search" name="time" placeholder="Search here">
+                <a href="#"> <button class="btn">Search</button></a>
             </div>
            
         </form>
