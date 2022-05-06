@@ -15,8 +15,8 @@ We came up with a solution for this. A location prediction system, which is capa
 ## How to use
 
 ### Pre-requisites
--Download Python from here
--Code Editor of your choice. (Eg. VSCode, Sublime Text, Atom, etc.)
+- Download Python from [here](https://www.python.org/downloads/)
+- Code Editor of your choice. (Eg. VSCode, Sublime Text, Atom, etc.)
 Clone or download the repository from the main page and navigate into the root directory.
 
 The repository is split into two segment:
@@ -40,10 +40,10 @@ The repository is split into two segment:
 
 ## Future plans
 
--Inclusion of optimisation to already made travel plans.
--Time prediction based on traffic blocks in the passenger routes.
--A facility for the passengers to add the experience so that others get an idea about the route.
--An online chat support to the passengers
+- Inclusion of optimisation to already made travel plans.
+- Time prediction based on traffic blocks in the passenger routes.
+- A facility for the passengers to add the experience so that others get an idea about the route.
+- An online chat support to the passengers
 
 ## Contributors
 
