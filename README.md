@@ -11,7 +11,7 @@ We came up with a solution for this. A location prediction system, which is capa
 
 ## Code Flow and System Users
 
-![Flow Diagram](https://github.com/abasith99/2022_IBM_Code_Challenge_Travelogue/blob/main/images/Architecture.jpg)
+![Flow Diagram](https://github.com/abasith99/2022_IBM_Code_Challenge_Travelogue/blob/main/images/Architecture%20diagram.jpg)
 ## How to use
 
 ### Pre-requisites
@@ -54,4 +54,4 @@ The repository is split into two segment:
 
 ## License
 
-This repository is licensed under Apache License, v2.0. See [LICENSE]() for full licensing text.
+This repository is licensed under Apache License, v2.0. See [LICENSE](https://github.com/abasith99/2022_IBM_Code_Challenge_Travelogue/blob/main/LICENSE) for full licensing text.
