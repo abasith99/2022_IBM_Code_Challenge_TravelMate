@@ -21,16 +21,17 @@ Clone or download the repository from the main page and navigate into the root d
 
 The repository is split into two segment:
 
--'bin' folder contains the core python scripts used in prediction part and database .
--'src' folder contains a Flask application which can be used to demonstrate the interaction of web UI and backend processing.
+-`bin` folder contains the core python scripts used in prediction part and database.
 
-'Step 1' : Excute command '''pip install requirments.txt'''. This will install all the libraries needed to run the program.
+-`src` folder contains a Flask application which can be used to demonstrate the interaction of web UI and backend processing.
 
-'Step 2' : Navigate into 'src' folder and execute the command 'py app.py'
+**Step 1** : Excute command '''pip install requirments.txt'''. This will install all the libraries needed to run the program.
 
-'Step 3' : The application will now be running on local host. i.e. 'https://127.0.0.5000/'
+**Step 2** : Navigate into 'src' folder and execute the command 'py app.py'
 
-'Step 4' : Provide details in respective fields and submit the form. The predicted location will be displayed on the screen.
+**Step 3** : The application will now be running on local host. i.e. 'https://127.0.0.5000/'
+
+**Step 4** : Provide details in respective fields and submit the form. The predicted location will be displayed on the screen.
 
 ## Problems faced during development
 
@@ -46,7 +47,7 @@ The repository is split into two segment:
 
 ## Contributors
 
-- Abdul basith, *NSS College of Engineering, Palakkad*
+- Abdul Basith, *NSS College of Engineering, Palakkad*
 - Swathy S, *NSS College of Engineering, Palakkad*
 - Devanand NS, *NSS College of Engineering, Palakkad*
 - Sandra T, *NSS College of Engineering, Palakkad*
