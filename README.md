@@ -34,8 +34,7 @@ The repository is split into two segment:
 
 ## Problems faced during development
 
-- Less accurate as dataset is small
-- Need to give time, locations in dataset
+- Less accurate compared to  machine learning models as dataset is small 
 - Time may vary according to the traffic and block
 
 ## Future plans
