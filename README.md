@@ -11,6 +11,7 @@ We came up with a solution for this. A location prediction system, which is capa
 
 ## Code Flow and System Users
 
+![Flow Diagram]()
 ## How to use
 
 ### Pre-requisites
