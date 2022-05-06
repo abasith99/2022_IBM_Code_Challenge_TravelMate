@@ -54,4 +54,4 @@ The repository is split into two segment:
 
 ## License
 
-This repository is licensed under Apache License, v2.0. See [LICENSE]() for full licensing text.
+This repository is licensed under Apache License, v2.0. See [LICENSE](https://github.com/abasith99/2022_IBM_Code_Challenge_Travelogue/blob/main/LICENSE) for full licensing text.
