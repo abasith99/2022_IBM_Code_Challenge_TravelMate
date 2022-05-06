@@ -68,7 +68,8 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-left: 270px;
+    margin-left: 190px;
+    margin-top: 200px;
 }
 
 .srch{
@@ -91,7 +92,7 @@ ul li a:hover{
     width: 100px;
     height: 40px;
     background: #ff7200;
-    border: 2px solid #ff7200;
+    border: 2px transparent #020202;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -166,14 +167,14 @@ ul li a:hover{
 }
 
 .form{
-    width: 250px;
+    width: 300px;
     height: 380px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
-    position: absolute;
-    top: -20px;
+    position: :left;
+    top: -80px;
     left: 870px;
     transform: translate(0%,-5%);
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 25px;
 }
 
@@ -244,11 +245,7 @@ ul li a:hover{
     text-decoration: none;
     color: #ff7200;
 }
-.liw{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-}
+
 .icons a{
     text-decoration: none;
     color: #fff;
