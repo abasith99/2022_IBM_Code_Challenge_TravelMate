@@ -3,7 +3,7 @@ Travelogue divination is a location prediction system for predicting the locatio
 
 ## The Problem
 
-We all have experienced situations like where could we reach by this time while travelling. So that we can plan accordingly like cancel future tickets,  change schedule etc.
+We all have experienced situations like where could we reach by this time while travelling. So that we can plan accordingly like cancel future tickets,  change schedule etc. Most of the ticket booking applications doesn’t include live tracking, time prediction and other facilities. Hence, there are hardships to locate the live status of a booked entity (Bus, Train, Flight).
 
 ## How can we solve this?
 
@@ -32,13 +32,27 @@ The repository is split into two segment:
 
 'Step 4' : Provide details in respective fields and submit the form. The predicted location will be displayed on the screen.
 
+## Problems faced during development
 
-Abdul basith, *NSS College of Engineering, Palakkad*
-Swathy S, *NSS College of Engineering, Palakkad*
-Devanand NS, *NSS College of Engineering, Palakkad*
-Harikrishnan G, *NSS College of Engineering, Palakkad*
-Sandra T, *NSS College of Engineering, Palakkad*
+- Less accurate as dataset is small
+- Need to give time, locations in dataset
+- Time may vary according to the traffic and block
 
-##License
+## Future plans
 
-This repository is licensed under Apache License, v2.0. See LICENSE for full licensing text.
+-Inclusion of optimisation to already made travel plans.
+-Time prediction based on traffic blocks in the passenger routes.
+-A facility for the passengers to add the experience so that others get an idea about the route.
+-An online chat support to the passengers
+
+## Contributors
+
+- Abdul basith, *NSS College of Engineering, Palakkad*
+- Swathy S, *NSS College of Engineering, Palakkad*
+- Devanand NS, *NSS College of Engineering, Palakkad*
+- Sandra T, *NSS College of Engineering, Palakkad*
+- Harikrishnan G, *NSS College of Engineering, Palakkad*
+
+## License
+
+This repository is licensed under Apache License, v2.0. See [LICENSE]() for full licensing text.
